@@ -12,3 +12,9 @@ services:
       - "8000:8000"
     depends_on:
       - db
+    environment:
+      USER: ${USER}
+      NAME: ${NAME}
+      DATABASE_PASSWORD:
+      HOST: ${DATABASE_HOST}
+      PORT: ${PORT}
