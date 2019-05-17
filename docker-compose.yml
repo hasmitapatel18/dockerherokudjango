@@ -16,5 +16,5 @@ services:
       USER: ${USER}
       NAME: ${NAME}
       DATABASE_PASSWORD:
-      HOST: ${DATABASE_HOST}
+      HOST: ${HOST}
       PORT: ${PORT}
